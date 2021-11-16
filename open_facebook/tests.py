@@ -4,7 +4,7 @@ import datetime
 import logging
 import unittest
 
-from django.utils.six import StringIO
+from six import StringIO
 
 import mock
 from open_facebook.api import *

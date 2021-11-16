@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.test.client import Client
-from django.utils.six import StringIO
+from six import StringIO
 
 from django_facebook.utils import get_user_model, is_user_attribute
 from mock import patch

@@ -6,7 +6,7 @@ except ImportError:
     from urllib.parse import urlparse
 
 from django.contrib.auth import logout
-from django.utils import six
+import six
 
 from open_facebook.api import FacebookAuthorization, OpenFacebook
 
